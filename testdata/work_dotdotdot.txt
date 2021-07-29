@@ -1,0 +1,13 @@
+basic test case
+
+-- patha/go.mod --
+-- go.mod --
+-- pathb/element/go.mod --
+-- go.work.want --
+go 1.17
+
+directory (
+	.
+	patha
+	pathb/element
+)
